@@ -1,2 +1,2 @@
-from datetime import datetime
-print("Hello ! il est {}.".format(datetime.now().strftime("%H;%M;%S")))
+from module import obtenir_temps
+print(obtenir_temps())
